@@ -33,3 +33,4 @@ fetch("profile.json")
   .catch(error => {
     console.error("Nastala chyba:", error);
   });
+  console.log("Profil načten");
